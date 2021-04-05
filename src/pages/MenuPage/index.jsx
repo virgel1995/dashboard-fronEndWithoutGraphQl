@@ -20,7 +20,7 @@ export function MenuPage({
                 return getGuilds()
             })
             .then(({ data }) => {
-                console.log(data)
+               // console.log(data)
                 setGuilds(data)
                 setLoading(false);
             })
@@ -29,6 +29,8 @@ export function MenuPage({
                 setLoading(false);
                 console.log(e)
             })
+            
+ // eslint-disable-next-line     
     }, [])
     return !loading && (
         <div>

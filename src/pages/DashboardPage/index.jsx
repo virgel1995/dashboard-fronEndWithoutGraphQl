@@ -45,6 +45,7 @@ export function DashboardPage({
                 history.push("/");
                 setLoading(false);
             });
+ // eslint-disable-next-line     
     }, []);
 
     const updateGuildPrefixParent = async (prefix) => {

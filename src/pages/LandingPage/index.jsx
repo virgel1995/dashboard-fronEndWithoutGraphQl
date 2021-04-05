@@ -7,7 +7,7 @@ import { Button } from "@chakra-ui/react"
 // import { test } from "../../utils/jquery"
 
 export function LandingPage(props) {
-    const login = () => window.location.href = "http://localhost:3002/api/auth/discord"
+    const login = () => window.location.href = "https://grondleapi.virgelroot.repl.co/api/auth/discord"
     return(
         <div className="App">
 

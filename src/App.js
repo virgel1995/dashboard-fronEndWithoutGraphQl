@@ -9,8 +9,7 @@ function App() {
 <Route path="/menu" exact= {true} component = { MenuPage }/>
 <Route path="/dashboard" exact= {true} component = { DashboardPage }/>
 
-{/* guild Dashboard link */}
-{/* <Route path="/dashboard/:id" exact= {true} component = { DashboardPage }/> */}
+{/* guild Dashboard link */} <Route path="/dashboard/:id" exact= {true} component = { DashboardPage }/>
 
   </Switch>
   );
